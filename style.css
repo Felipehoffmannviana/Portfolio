@@ -423,7 +423,7 @@ header {
 }
 
 .contato-left {
-    width: 35%;
+    width: 40%;
     background: linear-gradient(rgba(15, 15, 15, 0.6),rgba(22, 22, 22, 0.9)),  url("image/contato.jpg");
     background-size: cover;
 }
@@ -501,3 +501,70 @@ header {
     bottom: 1rem;
 }
 
+/* Sessão orçamento */
+
+.sessao-orcamento {
+    width: 100%;
+    height: 100vh;
+    background: url("image/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg");
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orcamento-wrapper {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background-color: #ffffff99;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5) ;
+}
+
+.sessao-orcamento h1 {
+    position: absolute;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093); 
+    top: -2.5rem;
+    left: 2rem;
+    padding: 0 3rem;
+    color: #fff;
+    font-family: var(--font-1);
+    font-size: 3rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.sessao-orcamento form {
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.sessao-orcamento label {
+    font-family: var(--font-2);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sessao-orcamento input[type="number"] {
+    font-family: var(--font-2);
+    width: 4rem;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 0.3rem;
+}
+
+.btn-orcamento {
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
+}
